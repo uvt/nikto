@@ -1,0 +1,38 @@
+This package was debianized by Thomas Seyrat <tomasera@debian.org> on
+Mon, 22 Apr 2002 16:19:45 +0200.
+
+This package was downloaded from <URL:http://www.cirt.net/nikto2>
+
+Files: *
+Copyright: © 2001, 2002 Chris Sullo <sullo@cirt.net>
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the License only.
+ 
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+
+Files: debian/*
+Copyright: © 2002 Thomas Seyrat <tomasera@debian.org>
+           © 2008 Vincent Bernat <bernat@debian.org>
+License: GPL-2+
+
+Files: plugins/db_*
+Copyright: © 2007 CIRT, Inc.
+License: other
+ The license is non-free.
+
+ This file may only be distributed and used with the full Nikto
+ package.  This file may not be used with any software product
+ without written permission from CIRT, Inc.  (c) 2007 CIRT, Inc.,
+ All Rights Reserved.
+
+ By sending any database updates to CIRT, Inc., it is assumed
+ that you grant CIRT, Inc., the unlimited, non-exclusive right to
+ reuse, modify and relicense the changes.
+
+On Debian systems, the complete text of the GNU General Public License
+can be found in `/usr/share/common-licenses/GPL`.

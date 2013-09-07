@@ -1,0 +1,26 @@
+Source: nikto
+Section: non-free/net
+Priority: extra
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.2
+Homepage: http://cirt.net/nikto2
+Vcs-Browser: http://git.debian.org/?p=collab-maint/nikto.git
+Vcs-Git: git://git.debian.org/git/collab-maint/nikto.git
+
+Package: nikto
+Architecture: all
+Depends: ${perl:Depends}, libwhisker2-perl (>= 2.5), libnet-ssleay-perl, ${misc:Depends}
+Suggests: nmap
+Description: web server security scanner
+ Nikto is a pluggable web server and CGI scanner written in Perl, using
+ rfp's LibWhisker to perform fast security or informational checks.
+ .
+ Features:
+  - Easily updatable CSV-format checks database
+  - Output reports in plain text or HTML
+  - Available HTTP versions automatic switching
+  - Generic as well as specific server software checks
+  - SSL support (through libnet-ssleay-perl)
+  - Proxy support (with authentication)
+  - Cookies support

@@ -1,0 +1,21 @@
+Index: nikto/nikto.conf
+===================================================================
+--- nikto.orig/nikto.conf	2013-08-09 23:52:22.992083924 -0400
++++ nikto/nikto.conf	2013-08-10 00:15:16.549551316 -0400
+@@ -61,11 +61,11 @@
+ CHECKMETHODS=HEAD GET
+ 
+ # If you want to specify the location of any of the files, specify them here
+-# EXECDIR=/opt/nikto				# Location of Nikto
+-# PLUGINDIR=/opt/nikto/plugins			# Location of plugin dir
+-# DBDIR=/opt/nikto/databases			# Location of plugin dir
+-# TEMPLATEDIR=/opt/nikto/templates		# Location of tempmlate dir
+-# DOCDIR=/opt/nikto/docs			# Location of docs dir
++EXECDIR=/var/lib/nikto				# Location of Nikto
++PLUGINDIR=/var/lib/nikto/plugins			# Location of plugin dir
++DBDIR=/var/lib/nikto/databases			# Location of plugin dir
++TEMPLATEDIR=/var/lib/nikto/templates		# Location of tempmlate dir
++DOCDIR=/var/lib/nikto/docs			# Location of docs dir
+ 
+ # Default plugin macros
+ @@MUTATE=dictionary;subdomain

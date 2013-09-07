@@ -1,0 +1,6 @@
+usr/bin
+var/lib/nikto/plugins
+var/lib/nikto/templates
+var/lib/nikto/docs
+etc/nikto
+usr/share/man/man1

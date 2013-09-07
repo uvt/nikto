@@ -1,0 +1,5 @@
+plugins/* var/lib/nikto/plugins/
+templates/* var/lib/nikto/templates/
+docs/CHANGES.txt var/lib/nikto/docs/
+docs/nikto.dtd var/lib/nikto/docs/
+databases/* var/lib/nikto/databases/

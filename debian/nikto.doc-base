@@ -1,0 +1,10 @@
+Document: nikto
+Title: Nikto manual
+Author: CIRT, Inc.
+Abstract: This document describes how to use Nikto, a web server
+ scanner.
+Section: Network/Monitoring
+
+Format: html
+Files: /usr/share/doc/nikto/nikto_manual.html
+Index: /usr/share/doc/nikto/nikto_manual.html
